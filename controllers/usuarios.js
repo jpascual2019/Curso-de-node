@@ -4,7 +4,7 @@ const usuariosGet = (req, res= response ) => {
     //const query = req.query;
     const {q, nombre = 'noname', id} = req.query;
     res.json({
-        msg:'get - API Controlador',
+        msg:'get -   API Controlador',
    //     query
    q, nombre, id
     })
